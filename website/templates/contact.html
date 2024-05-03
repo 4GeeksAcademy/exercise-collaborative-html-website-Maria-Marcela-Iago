@@ -1,27 +1,43 @@
-<!-- your html code here 
-<p>Hello, I'm contact.html</p>-->
 
-<div class="container2 mt-4 mb-2">
-    <h1> Contact </h1> 
-    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-        Dignissimos impedit eligendi cumque voluptatibus illo, maxime 
-        sapiente voluptas architecto natus ea, distinctio vero! 
-        Assumenda, neque dolorum aut repudiandae et quia magni!</p>
+<div
+  class="mb-auto border-top border-1 my-5 py-5 border-black container2 mt-4 mb-2"
+>
+  <h1 class="pb-5">Contact</h1>
+  <p class="pb-5">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos
+    impedit eligendi cumque voluptatibus illo, maxime sapiente voluptas
+    architecto natus ea, distinctio vero! Assumenda, neque dolorum aut
+    repudiandae et quia magni!
+  </p>
+
+  <div class="w-50 m-auto p-3 rounded bg-secondary position-relative">
+    <div class="d-flex flex-row md-3">
+      <label for="inputEmail3" class="col-sm-2 col-form-label flex-row"
+        >Your E-mail</label
+      >
+      <div class="w-100 mb-2">
+        <input
+          type="email"
+          class="form-control"
+          id="inputEmail3"
+          placeholder="E-mail"
+        />
+      </div>
+    </div>
+    <div class="d-flex flex-row md-3">
+      <label for="inputEmail3" class="col-sm-2 col-form-label flex-row"
+        >Your message</label
+      >
+      <div class="w-100 mb-2">
+        <textarea class="form-control" grows="8" placeholder="your message">
+        </textarea>
+      </div>
      
-        <form>
-            <div class="row mb-3">
-              
-              <label for="inputEmail3" class="col-sm-2 col-form-label">Your E-mail</label>
-              <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3">
-              </div>
-            </div>
-            <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                <label for="floatingTextarea mb-3">Please enter your message here...</label>
-              </div>
+    </div>
 
-            <button type="submit" class="btn btn-primary mt-4 mb-4">submit</button>
-          </form>    
-
+    <button type="submit " class="btn btn-primary mt-4 mb-4 d-flex flex-column">
+      submit
+    </button>
   </div>
+  
+</div>
